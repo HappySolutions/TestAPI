@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:forms="clr-namespace:Plugin.MediaManager.Forms;assembly=Plugin.MediaManager.Forms"
+             xmlns:o="clr-namespace:Octane.Xamarin.Forms.VideoPlayer;assembly=Octane.Xamarin.Forms.VideoPlayer"
+             xmlns:local="clr-namespace:Vids4Kids"
+             x:Class="Vids4Kids.Views.Page1">
+    <ContentPage.Content>
+        <StackLayout Margin="20,20" Spacing="20">
+            <o:VideoPlayer
+                x:Name="VideoPlayer"
+                DisplayControls="False"
+                FillMode="ResizeAspectFill"
+                AutoPlay="True"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

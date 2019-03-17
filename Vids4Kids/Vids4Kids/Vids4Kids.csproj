@@ -10,6 +10,22 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Xamarin.Forms" Version="3.3.0.967583" />
+    <PackageReference Include="Humanizer" Version="2.6.2" />
+    <PackageReference Include="Humanizer.Core.fr" Version="2.6.2" />
+    <PackageReference Include="Microsoft.CSharp" Version="4.6.0-preview3.19128.7" />
+    <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
+    <PackageReference Include="Octane.Xam.VideoPlayer" Version="2.2.0" />
+    <PackageReference Include="Plugin.MediaManager.Forms" Version="0.4.5" />
+    <PackageReference Include="Xamarin.Forms" Version="4.0.0.169046-pre5" />
+    <PackageReference Include="XamarinForms.Essentials" Version="1.0.0-Beta3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Views\HomePage.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
+    <EmbeddedResource Update="Views\Page1.xaml">
+      <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
+    </EmbeddedResource>
   </ItemGroup>
 </Project>

@@ -1,4 +1,5 @@
 ﻿using System;
+using Vids4Kids.Views;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -11,7 +12,7 @@ namespace Vids4Kids
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new HomePage());
         }
 
         protected override void OnStart()
